@@ -6,7 +6,7 @@ window.__CONFIG__ = {
   VITE_TMDB_READ_API_KEY: "70edb828a7ff8c923a04f39c43e2b07a",
 
   // The DMCA email displayed in the footer, null to hide the DMCA link
-  VITE_DMCA_EMAIL: ,
+  VITE_DMCA_EMAIL: null,
 
   // Whether to disable hash-based routing, leave this as false if you don't know what this is
   VITE_NORMAL_ROUTER: false,
