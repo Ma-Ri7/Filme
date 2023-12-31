@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -132,22 +133,41 @@
 
   <title>movie-web</title>
 
-  <script type="module" crossorigin src="/assets/index-Wtk0p14r.js"></script>
+  <!-- OpenSearch -->
+  <link rel="search" type="application/opensearchdescription+xml" title="movie-web" href="/opensearch.xml">
+
+  <!-- Google Sitelinks -->
+  <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "url": "https://movie-web.app",
+          "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://movie-web.app/browse/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+          }
+        }
+      </script>
+  <script type="module" crossorigin src="/assets/index-8tKnzfZm.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/auth-PrcDRVv8.js">
-  <link rel="modulepreload" crossorigin href="/assets/caption-parsing-K9ROvAic.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-NwRloCxQ.js">
-  <link rel="modulepreload" crossorigin href="/assets/react-dom-EcMBqGfg.js">
+  <link rel="modulepreload" crossorigin href="/assets/caption-parsing-_OF-j2IH.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-66uhkzFf.js">
+  <link rel="modulepreload" crossorigin href="/assets/react-dom-SBliXubI.js">
   <link rel="modulepreload" crossorigin href="/assets/locales-V3qw0q-_.js">
-  <link rel="modulepreload" crossorigin href="/assets/Icons-93zvMGAK.js">
+  <link rel="modulepreload" crossorigin href="/assets/Icons-UNwMIDOJ.js">
   <link rel="modulepreload" crossorigin href="/assets/hls-zqvr_1ex.js">
-  <link rel="modulepreload" crossorigin href="/assets/ietf-language-tags-isXcJNHd.js">
+  <link rel="modulepreload" crossorigin href="/assets/ietf-language-tags-4_uDE-Fv.js">
   <link rel="stylesheet" crossorigin href="/assets/Icons-L9H4Bkh4.css">
   <link rel="stylesheet" crossorigin href="/assets/index-URtRWA35.css">
-</head>
+<link rel="manifest" href="/manifest.webmanifest"></head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-</body>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dbe14d39750144afa2f84a330d1d2504"}'></script><!-- Cloudflare Pages Analytics --></body>
 
 </html>
